@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>YotpoSupport_ExportCatalog</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GNU 2.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Export the store's product catalog to CSV file in Yotpo's format.</summary>
+    <description>Export the store's product catalog to CSV file in Yotpo's format.</description>
+    <notes>Ver. 1.0.0 - Stable.</notes>
+    <authors><author><name>Lior Gingihashvili</name><user>lgingi</user><email>lgingi@yotpo.com</email></author></authors>
+    <date>2018-12-21</date>
+    <time>21:38:51</time>
+    <contents><target name="magecommunity"><dir name="YotpoSupport"><dir name="ExportCatalog"><file name=".DS_Store" hash="73abcfed11b098bc46f273f49641abf4"/><dir name="Block"><file name=".DS_Store" hash="a673c48170fc451d5908df92198b9d14"/><dir name="Adminhtml"><file name=".DS_Store" hash="af80e6e330f6419579b1acfcf3ab0ffc"/><dir name="System"><file name=".DS_Store" hash="1f7f307801cd97a3d08f92e74744f094"/><dir name="Config"><file name=".DS_Store" hash="0b26ac8d1dedb9ed13e9b639cc82797b"/><dir name="Form"><file name="Button.php" hash="aafe909d9b0a0811479f7d20aee19060"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="25aa5b3de611988392d15bd5fa200776"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="YotpoExportController.php" hash="556ab42c2cb36bc35015e603eb0c07a3"/></dir></dir><dir name="etc"><file name="config.xml" hash="d2f53519bb58e731ebba21995aa7397e"/><file name="system.xml" hash="5dd556267e66edba81a8398d9b31115e"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="yotpoexport"><file name=".DS_Store" hash="1c3c2605eb8b562a31e31901293d9199"/><dir name="system"><file name=".DS_Store" hash="9a106a4b13830f15f38ff33af28b618d"/><dir name="config"><file name="button.phtml" hash="dd5e04e5b5591f3a295ccb0c56ee7d1d"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="YotpoSupport_ExportCatalog.xml" hash="64ede8329af444fb5a3f88fa7a96fe2b"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.6.25</min><max>7.3.0</max></php></required></dependencies>
+</package>

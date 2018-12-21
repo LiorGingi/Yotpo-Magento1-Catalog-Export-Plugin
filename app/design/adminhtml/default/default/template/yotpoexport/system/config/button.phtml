@@ -1,0 +1,14 @@
+<?php
+
+?>
+
+<script type="text/javascript">
+    //<![CDATA[
+
+    function exportCatalog() {
+        window.location.href='<?php echo $this->getAjaxExportUrl() ?>'+'?store='+'<?php echo Mage::app()->getRequest()->getParam('store', 0); ?>';
+    }
+    //]]>
+</script>
+
+<?php echo $this->getButtonHtml(); ?>

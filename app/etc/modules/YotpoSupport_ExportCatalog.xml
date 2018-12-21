@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+      <YotpoSupport_ExportCatalog>
+         <active>true</active>
+         <codePool>community</codePool>
+      </YotpoSupport_ExportCatalog>
+    </modules>
+</config>
