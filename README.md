@@ -20,4 +20,4 @@ In order to install the plugin, please follow the instructions below:
 
 *The plugin supports Magento multi-store and product attribute codes for unique identifiers (UPC, ISBN, MPN and Brand).
 
-*There's a bug in some of the Magento 1.9.3 versions which throw an error that there was an error in caching cleanup when installing the plugin. You can disregard the error message, it's a bug with Magento and the plugin is still properly installed.
+*There's a bug in some of the Magento 1.9.3.X versions which throws an error that there was an issue in caching cleanup when installing the plugin. You can disregard the error message, the plugin is still properly installed.
